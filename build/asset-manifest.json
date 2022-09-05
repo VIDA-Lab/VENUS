@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VENUS/static/css/main.6242e2d0.css",
+    "main.js": "/VENUS/static/js/main.e1826bd4.js",
+    "index.html": "/VENUS/index.html",
+    "main.6242e2d0.css.map": "/VENUS/static/css/main.6242e2d0.css.map",
+    "main.e1826bd4.js.map": "/VENUS/static/js/main.e1826bd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6242e2d0.css",
+    "static/js/main.e1826bd4.js"
+  ]
+}
