@@ -6,11 +6,11 @@ import './style.css'
 import {Layout, Row, Col} from 'antd';
 import {Input} from 'antd';
 import {Divider, Form, InputNumber, Button, Slider, Radio, Typography, Select, Switch } from 'antd';
-const {Text} = Typography;
+
 
 import View_1q from "./Components/view_1q";
 import View_2q from "./Components/view_2q";
-
+const {Text} = Typography;
 
 const {Header, Content, Sider} = Layout;
 
