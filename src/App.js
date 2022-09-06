@@ -6,12 +6,12 @@ import './style.css'
 import {Layout, Row, Col} from 'antd';
 import {Input} from 'antd';
 import {Divider, Form, InputNumber, Button, Slider, Radio, Typography, Select, Switch } from 'antd';
-
+const {Text} = Typography;
 
 import View_1q from "./Components/view_1q";
 import View_2q from "./Components/view_2q";
 
-const {Text} = Typography;
+
 const {Header, Content, Sider} = Layout;
 
 
@@ -90,8 +90,8 @@ class App extends Component {
             let h = Number(document.getElementById('h_value').value) || 0
 
             // console.log([a,b,c,d,e,f,g,h])
-            // this.root.render(<View_2q params_arr={[a,b,c,d,e,f,g,h]} orders={[this.state.order, this.state.first_order, this.state.second_order]}/>)
-            this.root.render(<View_2q orders={[this.state.order, this.state.first_order, this.state.second_order]}/>)
+            this.root.render(<View_2q params_arr={[a,b,c,d,e,f,g,h]} orders={[this.state.order, this.state.first_order, this.state.second_order]}/>)
+            // this.root.render(<View_2q orders={[this.state.order, this.state.first_order, this.state.second_order]}/>)
         }
         else{/* 默认都是渲染 single-qubit 的状态 */
 
@@ -113,8 +113,8 @@ class App extends Component {
         this.root = createRoot(document.getElementById('svg_container'))
 
         /* 先用View_1进行初始化 */
-        // this.root.render(<View_1q/>)
-        this.root.render(<View_2q/>)
+        this.root.render(<View_1q/>)
+        // this.root.render(<View_2q/>)
     }
 
 
